@@ -1,0 +1,12 @@
+.Footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.footer {
+		font-weight: 500;
+		padding: 2rem 0;
+		text-align: center;
+		color: var(--secondary);
+		line-height: 1.5;
+	}
+}

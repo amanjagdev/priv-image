@@ -1,0 +1,45 @@
+html {
+	scroll-behavior: smooth;
+	::selection {
+		background: #777c8546;
+	}
+}
+
+body {
+	transition: all 0.5s;
+	background: var(--back);
+	color: var(--text);
+}
+
+* {
+	font-family: "Poppins";
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+button {
+	font-size: 1.1rem;
+	margin: 0.5rem;
+	border-radius: 1.8rem;
+	border: 1px solid var(--accent);
+	outline: none;
+	padding: 1.5rem 2.5rem;
+	background: var(--accent);
+	color: var(--secondary);
+	font-weight: 700;
+	transition: all 0.3s;
+}
+
+button:hover {
+	background: var(--secondary) !important;
+	color: var(--accent) !important;
+}
+::placeholder {
+	color: var(--secondary);
+}

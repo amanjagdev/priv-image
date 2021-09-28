@@ -1,0 +1,31 @@
+.HeroSection {
+	.container {
+		margin-top: clamp(2rem, 10%, 4rem);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+		figure {
+			margin-bottom: 2rem;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			img {
+				height: 2rem;
+			}
+			figcaption {
+				font-size: 1.2rem;
+				font-weight: 600;
+				margin-left: 0.7rem;
+			}
+		}
+		.section {
+			margin : 0 2rem;
+			.change-theme{
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+}
